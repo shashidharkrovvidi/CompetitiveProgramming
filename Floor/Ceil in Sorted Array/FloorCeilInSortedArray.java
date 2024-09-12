@@ -4,7 +4,7 @@
 
 import java.util.Arrays;
 
-class Solution {
+class FloorCeilInSortedArray {
     public int[] getFloorAndCeil(int x, int[] arr) {
         // code here
         int high = arr.length - 1;
