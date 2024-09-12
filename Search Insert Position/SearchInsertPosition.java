@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/search-insert-position/description/
 //time complexity: O(logn)
 //space complexity: O(1)
-class Solution {
+class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         int high = nums.length - 1;
         int low = 0;
