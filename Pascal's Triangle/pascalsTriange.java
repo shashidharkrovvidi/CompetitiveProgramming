@@ -4,7 +4,7 @@ space complexity: O(numRows)
  */
 import java.util.List;
 import java.util.ArrayList;
-class Solution {
+class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
         if(numRows == 0) return result;
